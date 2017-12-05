@@ -1,0 +1,8 @@
+#QFMRI_multidomain_localizer_Rest_4m.pcl
+#start times coded relative to scan start
+
+start.present();
+
+resting.present();
+
+done.present();

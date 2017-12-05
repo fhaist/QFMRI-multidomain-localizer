@@ -1,0 +1,26 @@
+trial {
+
+	trial_duration = 1672; # 1680 ms
+
+picture {
+    text { 
+        font = "Helvetica Bold"; 
+        caption = "$StimL"; 
+        font_size = $SizeL ; 
+		}; 
+        x=-50; y=0;
+	text { 
+        font = "Helvetica Bold"; 
+        caption = "$StimR"; 
+        font_size = $SizeR ; 
+		}; 
+        x=50; y=0;
+};
+
+	time = 0 ;
+	duration = 1192; # 1200 ms stim presentation
+   	
+	target_button = $Button_code ;
+	code = $NumDistance ;
+};
+	
